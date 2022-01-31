@@ -1,0 +1,37 @@
+{
+  "main": {
+    "services": "Services",
+    "traffic-network": "Traffic network",
+    "fleet": "Fleet",
+    "contacts": "Contacts",
+    "about": "About"
+  },
+  "company": {
+    "name": "LLC Cargo sky",
+    "address": "Юридический адрес 630112, Новосибирская область, г.о. город Новосибирск, г. Новосибирск, мкр. Закаменский, д. 20/3, 114",
+    "ogrn": "ОГРН 1215400048478",
+    "deny-resp": "Отказ от ответственности: ООО «Грузовое Небо» является брокером по чартерным авиаперевозкам. ООО «Грузовое Небо» не является эксплуатантом воздушных судов или непосредственным авиаперевозчиком и не осуществляет оперативное управление воздушными судами. Рейсы будут выполняться прямым авиаперевозчиком или прямым иностранным авиаперевозчиком, в зависимости от обстоятельств, который будет осуществлять оперативное управление воздушным судном."
+  },
+  "services": {
+    "main-text": "Наша компания предоставляет широкий спектр услуг в сфере авиаперевозок."
+  },
+  "contact-us": {
+    "main-title": "Get in touch",
+    "main-text": "Please fill out the form below to send us an email and we will get back to you as soon as possible.",
+    "info-title": "Contact info",
+    "address-title": "Address",
+    "phone-title": "Phone",
+    "email-title": "E-mail",
+    "name-placeholder": "Name",
+    "message-placeholder": "Message",
+    "send-button": "Send message"
+  },
+  "fleet": {
+    "main-title": "Aircraft",
+    "main-description": "Airborn.",
+    "message": "We have a big variety of plain types to accomplish your any demands."
+  },
+  "about": {
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+}
