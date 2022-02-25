@@ -1,8 +1,5 @@
 import './style.css';
 
-import p1 from '../../assets/images/boeing/1.jpg';
-import p2 from '../../assets/images/an124/2.jpg';
-import p3 from '../../assets/images/il76/3.jpg';
 import p4 from '../../assets/images/boeing/4.jpg';
 import p5 from '../../assets/images/an124/5.jpg';
 import p6 from '../../assets/images/il76/6.jpg';
@@ -11,7 +8,7 @@ import p8 from '../../assets/images/an124/8.jpg';
 import p9 from '../../assets/images/il76/9.jpeg';
 
 import {useEffect, useState} from "react";
-const arr = [p1, p2, p3, p4, p5, p6, p7, p8, p9];
+const arr = [p4, p5, p6, p7, p8, p9];
 
 export const Header = (props) => {
   const [number, setNumber] = useState(0);

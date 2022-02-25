@@ -34,33 +34,18 @@ export const Navigation = (props) => {
           id='bs-example-navbar-collapse-1'
         >
           <ul className='nav navbar-nav navbar-right'>
-            {/*<li>*/}
-            {/*  <a href='#features' className='page-scroll'>*/}
-            {/*    Features*/}
-            {/*  </a>*/}
-            {/*</li>*/}
-            {/*<li>*/}
-            {/*  <a href='#portfolio' className='page-scroll'>*/}
-            {/*    Gallery*/}
-            {/*  </a>*/}
-            {/*</li>*/}
-            {/*<li>*/}
-            {/*  <a href='#team' className='page-scroll'>*/}
-            {/*    Team*/}
-            {/*  </a>*/}
-            {/*</li>*/}
-            {/*<li>*/}
-            {/*  <a href='#testimonials' className='page-scroll'>*/}
-            {/*    Testimonials*/}
-            {/*  </a>*/}
-            {/*</li>*/}
+            <li>
+              <Link to='/about' className='page-scroll'>
+                {t('main.about')}
+              </Link>
+            </li>
             <li>
               <Link to='/services' className='page-scroll'>
                 {t('main.services')}
               </Link>
             </li>
             <li>
-              <Link to='/traffic-net' className='page-scroll'>
+              <Link to='/traffic-net' className='page-scroll'  style={{ width: '100px' }}>
                 {t('main.traffic-network')}
               </Link>
             </li>
@@ -75,8 +60,8 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li>
-              <Link to='/about' className='page-scroll'>
-                {t('main.about')}
+              <Link to='/policy' className='page-scroll' style={{ width: '200px' }}>
+                {t('main.policy')}
               </Link>
             </li>
           </ul>

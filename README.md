@@ -2,7 +2,7 @@
 
 **
 
-### <a href="https://cargo-sky.netlify.app/traffic-net">LIVE DEMO</a> 
+### <a href="https://cargo-sky.netlify.app">LIVE DEMO</a> 
 
 ## Description
 This is a ReactJS based page. The design is inspired by a tmplate from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>

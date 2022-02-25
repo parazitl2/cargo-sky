@@ -16,11 +16,16 @@
     color: #333;
     text-transform: uppercase;
 }
+#menu.navbar-default .navbar-nav > li {
+    display: flex;
+    height: 65px;
+    align-items: flex-end;
+}
 #menu.navbar-default .navbar-nav > li > a {
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
     color: #555;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
     padding: 8px 2px;
     border-radius: 0;

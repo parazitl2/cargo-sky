@@ -52,20 +52,10 @@ const App = () => {
       <main id="main">
         <Routes>
           <Route path="/" element={<Header data={landingPageData.Header} />} />
-        </Routes>
-        <Routes>
           <Route path="/services" element={<Services data={landingPageData.Services} />} />
-        </Routes>
-        <Routes>
           <Route path="/traffic-net" element={<Header data={landingPageData.Header} />} />
-        </Routes>
-        <Routes>
           <Route path="/fleet" element={<Gallery data={landingPageData.Gallery} />} />
-        </Routes>
-        <Routes>
           <Route path="/contacts" element={<Contact data={landingPageData.Contact} />} />
-        </Routes>
-        <Routes>
           <Route path="/about" element={<About data={landingPageData.About} />} />
         </Routes>
       </main>
