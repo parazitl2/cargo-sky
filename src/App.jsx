@@ -15,6 +15,7 @@ import {useTranslation} from 'react-i18next';
 import {SocialNetworks} from "./components/SocialNetworksSection";
 import {Footer} from "./components/FooterSection";
 import {Route, Routes} from "react-router-dom";
+import {Policy} from './components/PolicySection';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -57,6 +58,7 @@ const App = () => {
           <Route path="/fleet" element={<Gallery data={landingPageData.Gallery} />} />
           <Route path="/contacts" element={<Contact data={landingPageData.Contact} />} />
           <Route path="/about" element={<About data={landingPageData.About} />} />
+          <Route path="/policy" element={<Policy />} />
         </Routes>
       </main>
 
