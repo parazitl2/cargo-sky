@@ -1,7 +1,7 @@
 import './style.css';
 import {useTranslation} from "react-i18next";
 
-export const Services = (props) => {
+export const ServicesUnused = (props) => {
   const [ t, i18n ] = useTranslation('common');
 
   return (

@@ -3,7 +3,7 @@ import { Navigation } from "./components/NavBar";
 import { Header } from "./components/HeaderSection";
 import { Features } from "./components/FeaturesSection";
 import { About } from "./components/AboutSection";
-import { Services } from "./components/ServicesSection/services";
+import { Services } from "./components/ServicesSection";
 import { Gallery } from "./components/GallerySection";
 import { Testimonials } from "./components/TestomonialsSection";
 import { Team } from "./components/TeamSection";
