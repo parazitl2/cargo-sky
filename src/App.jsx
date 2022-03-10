@@ -16,6 +16,7 @@ import {SocialNetworks} from "./components/SocialNetworksSection";
 import {Footer} from "./components/FooterSection";
 import {Route, Routes} from "react-router-dom";
 import {Policy} from './components/PolicySection';
+import {TrafficNet} from './components/TrafficNetSection';
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -54,7 +55,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Header data={landingPageData.Header} />} />
           <Route path="/services" element={<Services data={landingPageData.Services} />} />
-          <Route path="/traffic-net" element={<Header data={landingPageData.Header} />} />
+          <Route path="/traffic-net" element={<TrafficNet data={landingPageData.Header} />} />
           <Route path="/fleet" element={<Gallery data={landingPageData.Gallery} />} />
           <Route path="/contacts" element={<Contact data={landingPageData.Contact} />} />
           <Route path="/about" element={<About data={landingPageData.About} />} />
