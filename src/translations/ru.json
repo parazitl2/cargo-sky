@@ -22,7 +22,9 @@
     "info-title": "Контактная информация",
     "address-title": "Юридический адрес",
     "phone-title": "Телефон",
+    "phone-number": "+7 (913) 709-09-09 (круглосуточный)",
     "email-title": "E-mail",
+    "email": " info@cargo-sky.com",
     "name-placeholder": "Имя",
     "message-placeholder": "Сообщение",
     "send-button": "Отправить сообщение"

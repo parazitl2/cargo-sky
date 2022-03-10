@@ -102,7 +102,7 @@ export const Contact = (props) => {
               <h3>{t('contact-us.info-title')}</h3>
               <p>
                 <span>
-                  <i className='fa fa-map-marker'></i> {t('contact-us.address-title')}
+                  <i className='fa fa-map-marker'/> {t('contact-us.address-title')}
                 </span>
                 {t('company.address')}
               </p>
@@ -110,17 +110,19 @@ export const Contact = (props) => {
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-phone'></i> {t('contact-us.phone-title')}
+                  <i className='fa fa-envelope-o'/> {t('contact-us.email-title')}
                 </span>{' '}
-                {props.data ? props.data.phone : 'loading'}
+                {t('contact-us.email')}
               </p>
             </div>
             <div className='contact-item'>
               <p>
                 <span>
-                  <i className='fa fa-envelope-o'></i> {t('contact-us.email-title')}
+                  <i className='fa fa-phone'/> {t('contact-us.phone-title')}
                 </span>{' '}
-                {props.data ? props.data.email : 'loading'}
+                {t('contact-us.phone-number')}
+                <br/>
+                {'Viber, Whatsapp, Telegram'}
               </p>
             </div>
           </div>
