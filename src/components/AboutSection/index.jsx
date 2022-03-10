@@ -42,7 +42,7 @@ export const About = (props) => {
           </div>
         </div>
         <div>
-          <p>{t('about.description-additional')}</p>
+          <p className={"additional-text"}>{t('about.description-additional')}</p>
         </div>
       </div>
     </div>

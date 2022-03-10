@@ -46,3 +46,7 @@
     line-height: 24px;
     margin: 30px 0;
 }
+
+#about .additional-text {
+    font-size: 12px;
+}
