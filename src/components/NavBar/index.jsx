@@ -2,9 +2,19 @@ import './style.css';
 import logo from '../../assets/logo.png';
 import {useTranslation} from 'react-i18next';
 import {Link} from "react-router-dom";
+import ReactCountryFlag from "react-country-flag"
+import {useCallback} from 'react';
 
 export const Navigation = (props) => {
-  const [ t, i18n ] = useTranslation('common');
+  const [t, i18n] = useTranslation('common');
+
+  const handleRU = useCallback(() => {
+    i18n.changeLanguage('ru');
+  }, [i18n]);
+
+  const handleEN = useCallback(() => {
+    i18n.changeLanguage('en');
+  }, [i18n]);
 
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -21,9 +31,9 @@ export const Navigation = (props) => {
           >
             {' '}
             <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
+            <span className='icon-bar'/>
+            <span className='icon-bar'/>
+            <span className='icon-bar'/>
           </button>
           {/*<a className='navbar-brand page-scroll' href='#page-top'>*/}
           {/*</a>*/}
@@ -45,7 +55,7 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li>
-              <Link to='/traffic-net' className='page-scroll'  style={{ width: '100px' }}>
+              <Link to='/traffic-net' className='page-scroll' style={{width: '100px'}}>
                 {t('main.traffic-network')}
               </Link>
             </li>
@@ -60,9 +70,13 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li>
-              <Link to='/policy' className='page-scroll' style={{ width: '200px' }}>
+              <Link to='/policy' className='page-scroll' style={{width: '200px'}}>
                 {t('main.policy')}
               </Link>
+            </li>
+            <li className='language-block'>
+              <div onClick={handleRU}><ReactCountryFlag countryCode="RU" title="Русский" />Русский</div>
+              <div onClick={handleEN}><ReactCountryFlag countryCode="US" title="English" />English</div>
             </li>
           </ul>
         </div>

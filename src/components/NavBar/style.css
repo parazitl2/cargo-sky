@@ -29,7 +29,7 @@
     font-weight: 400;
     padding: 8px 2px;
     border-radius: 0;
-    margin: 9px 20px 0;
+    margin: 9px 10px 0;
 }
 #menu.navbar-default .navbar-nav > li > a:after {
     display: block;
@@ -141,4 +141,34 @@ a:focus,
 .btn.active.focus {
     outline: none;
     outline-offset: none;
+}
+
+#menu .language-block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+    justify-content: flex-end;
+}
+
+#menu .language-block > div {
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    #menu .company-logo {
+        width: 167px;
+        height: 81px;
+    }
+}
+
+@media (max-width: 991px) {
+    #menu .company-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu .company-logo {
+        display: block;
+    }
 }

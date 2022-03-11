@@ -31,22 +31,6 @@ const App = () => {
 
     // <button onClick={() => i18n.changeLanguage('ru')}>de</button>
 
-  // return (
-  //   <div>
-  //     <Navigation />
-  //     <Header data={landingPageData.Header} />
-  //     <Features data={landingPageData.Features} />
-  //     <Services data={landingPageData.Services} />
-  //     <Gallery data={landingPageData.Gallery}/>
-  //     <Testimonials data={landingPageData.Testimonials} />
-  //     <Team data={landingPageData.Team} />
-  //     <Contact data={landingPageData.Contact} />
-  //     <About data={landingPageData.About} />
-  //
-  //     <SocialNetworks />
-  //     <Footer />
-  //   </div>
-  // );
   return (
     <div>
       <Navigation />
