@@ -1,0 +1,10 @@
+{
+  "emailjs": {
+    "service_ID": "default_service",
+    "template_ID": "template_REPLACE_ME",
+    "user_ID": "ID_REPLACE_ME"
+  },
+  "callback-free": {
+    "data-key": "KEY_REPLACE_ME"
+  }
+}

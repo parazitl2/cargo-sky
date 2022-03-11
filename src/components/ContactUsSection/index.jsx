@@ -1,34 +1,35 @@
-import { useState } from 'react'
-import emailjs from 'emailjs-com'
+import { useState } from 'react';
+import emailjs from '@emailjs/browser';
 import './style.css';
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
+import keys from "../../application-keys.json";
 
 const initialState = {
-  name: '',
-  email: '',
+  from_name: '',
+  from_email: '',
   message: '',
 }
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState);
-  const [t, i18n] = useTranslation('common');
+  const [{ from_name, from_email, message }, setState] = useState(initialState);
+  const [t] = useTranslation('common');
 
   const handleChange = (e) => {
-    const { name, value } = e.target
-    setState((prevState) => ({ ...prevState, [name]: value }))
+    const { name, value } = e.target;
+    setState((prevState) => ({ ...prevState, [name]: value }));
   }
-  const clearState = () => setState({ ...initialState })
+  const clearState = () => setState({ ...initialState });
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log(name, email, message)
+    e.preventDefault();
+
     emailjs
       .sendForm(
-        'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID'
+        keys.emailjs.service_ID, keys.emailjs.template_ID, e.target, keys.emailjs.user_ID
       )
       .then(
         (result) => {
-          console.log(result.text)
-          clearState()
+          console.log(result.text);
+          clearState();
         },
         (error) => {
           console.log(error.text)
@@ -47,18 +48,20 @@ export const Contact = (props) => {
                   {t('contact-us.main-text')}
                 </p>
               </div>
-              <form name='sentMessage' validate onSubmit={handleSubmit}>
+              <form name='sentMessage' validate='true' onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='form-group'>
                       <input
+                        required
                         type='text'
-                        id='name'
-                        name='name'
+                        id='from_name'
+                        name='from_name'
                         className='form-control'
                         placeholder={t('contact-us.name-placeholder')}
-                        required
+                        // required
                         onChange={handleChange}
+                        value={from_name}
                       />
                       <p className='help-block text-danger'></p>
                     </div>
@@ -66,13 +69,14 @@ export const Contact = (props) => {
                   <div className='col-md-6'>
                     <div className='form-group'>
                       <input
+                        required
                         type='email'
-                        id='email'
-                        name='email'
+                        id='from_email'
+                        name='from_email'
                         className='form-control'
                         placeholder={t('contact-us.email-title')}
-                        required
                         onChange={handleChange}
+                        value={from_email}
                       />
                       <p className='help-block text-danger'></p>
                     </div>
@@ -80,13 +84,14 @@ export const Contact = (props) => {
                 </div>
                 <div className='form-group'>
                   <textarea
+                    required
                     name='message'
                     id='message'
                     className='form-control'
                     rows='4'
                     placeholder={t('contact-us.message-placeholder')}
-                    required
                     onChange={handleChange}
+                    value={message}
                   />
                   <p className='help-block text-danger'></p>
                 </div>

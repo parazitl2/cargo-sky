@@ -7,6 +7,10 @@ import i18next from 'i18next';
 import {I18nextProvider} from 'react-i18next';
 import ru from "./translations/ru.json";
 import {BrowserRouter} from "react-router-dom";
+import { init } from '@emailjs/browser';
+import keys from "./application-keys.json";
+
+init(keys.emailjs.user_ID);
 
 i18next.init({
     interpolation: { escapeValue: false },
