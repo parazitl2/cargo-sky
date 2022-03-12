@@ -57,3 +57,7 @@
 #services .additional-text {
     font-size: 12px;
 }
+
+#services .container .row {
+    margin-bottom: 40px;
+}

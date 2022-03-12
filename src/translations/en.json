@@ -1,19 +1,32 @@
 {
   "main": {
     "services": "Services",
-    "traffic-network": "Traffic network",
+    "traffic-network": "Traffic Network",
     "fleet": "Fleet",
     "contacts": "Contacts",
-    "about": "About"
+    "about": "About",
+    "policy": "Privacy Policy"
   },
   "company": {
-    "name": "LLC Cargo sky",
-    "address": "Юридический адрес 630112, Новосибирская область, г.о. город Новосибирск, г. Новосибирск, мкр. Закаменский, д. 20/3, 114",
-    "ogrn": "ОГРН 1215400048478",
-    "deny-resp": "Отказ от ответственности: ООО «Грузовое Небо» является брокером по чартерным авиаперевозкам. ООО «Грузовое Небо» не является эксплуатантом воздушных судов или непосредственным авиаперевозчиком и не осуществляет оперативное управление воздушными судами. Рейсы будут выполняться прямым авиаперевозчиком или прямым иностранным авиаперевозчиком, в зависимости от обстоятельств, который будет осуществлять оперативное управление воздушным судном."
+    "name": "Cargo Sky LLC",
+    "address": "630112, Novosibirsk region, Novosibirsk city, md. Zakamensky, 20/3, 114",
+    "ogrn": "OGRN 1215400048478",
+    "deny-resp": "Disclaimer: Cargo Sky LLC is an air charter broker. LLC \"Cargo Sky\" is not an aircraft operator or a direct air carrier and does not carry out operational control of aircraft. The flights will be operated by a direct air carrier or a direct foreign air carrier, as the case may be, which will have operational control of the aircraft."
   },
   "services": {
-    "main-text": "Наша компания предоставляет широкий спектр услуг в сфере авиаперевозок."
+    "main-text": "Our company provides a wide range of services in the field of air transportation.",
+    "li-1": "1. Air transportation of goods on the territory of the Russian Federation;",
+    "li-2": "2. Air transportation of goods in the direction: PRC (China) - Russian Federation;",
+    "li-3": "3. Direct air transportation of goods: PRC (China) - Novosibirsk city (Russian Federation);",
+    "li-4": "4. International air transportation in directions:",
+    "li-4-1": "neighboring countries - Novosibirsk city, and other cities of the Russian Federation and in the opposite direction",
+    "li-4-2": "far-abroad countries - Novosibirsk city, and other cities of the Russian Federation and in the opposite direction;",
+    "li-5": "5. Charter air cargo transportation by destinations:",
+    "li-5-1": "on the territory of the Russian Federation;",
+    "li-5-2": "Foreign country - Russian Federation;",
+    "li-5-3": "Russian Federation - Foreign country;",
+    "li-6": "6. Consulting in the field of cargo delivery.",
+    "li-7": "7. Possibility of providing turnkey, door-to-door services."
   },
   "contact-us": {
     "main-title": "Get in touch",
@@ -21,17 +34,72 @@
     "info-title": "Contact info",
     "address-title": "Address",
     "phone-title": "Phone",
+    "phone-number": "+7 (913) 709-09-09 (noctidial)",
     "email-title": "E-mail",
+    "email": " info@cargo-sky.com",
     "name-placeholder": "Name",
     "message-placeholder": "Message",
     "send-button": "Send message"
   },
   "fleet": {
     "main-title": "Aircraft",
-    "main-description": "Airborn.",
+    "main-description": "This page is under development.",
     "message": "We have a big variety of plain types to accomplish your any demands."
   },
   "about": {
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "description-p1": "\"Cargo Sky\" LLC was founded in Novosibirsk in 2021 by a team of professionals working in the field of air cargo transportation. Having passed the path of becoming us, rich in experience, as market professionals, taking into account the weaknesses of companies providing this type of service, we decided to unite into a single whole in order to provide our clients with the best result in solving their tasks. We adhere to the following principles: <b>- ease of communication, prompt response, speed of cargo delivery, favorable cost of our services.",
+    "description-p2": "Our company carries out the organization of air transportation of cargo in Russia, countries of near and far abroad. But there are cases when the Client's cargo is located in another city than the airport of departure and it is necessary to deliver the cargo there, then multimodal* transportation is carried out. We successfully operate in this market and have established ourselves as a reliable and profitable partner for dozens of customers. Today our company is developing dynamically, providing its customers with the most convenient forms of service, prompt solution of tasks, attractive cost of our services.",
+    "description-additional": "* Multimodal transport (or combined transport) is a combination of at least two or more different modes of transport to move goods from one place to another (more often to another country). This means that the agent or carrier is responsible for the entire shipment. Having only one contract minimizes the costs of coordination and communication for you as a shipper, especially if something goes wrong, resulting in highly efficient delivery times. With multimodal transportation, it will be easy for the customer to track the cargo, because only one tracking interface is used instead of several. Access to remote corners of the world with the responsibility and responsibility of traffic with only one carrier is another reason to choose multimodal transportation. They are considered a more timely and economical delivery resource."
+  },
+  "planes": {
+    "an26": "AN-26",
+    "an12": "AN-12",
+    "il76": "IL-76",
+    "an124": "AN-124",
+    "an225": "AN-225",
+    "tu204": "TU-204",
+    "boeing737": "Boeing 737",
+    "boeing747": "Boeing 747",
+    "boeing777": "Boeing 777"
+  },
+  "policy": {
+    "main-terms-p1": "The main terms used in these Rules mean the following:",
+    "main-terms-p2": "\"User\" - is a legally capable individual who fills out any forms on the site owned by the Operator;",
+    "main-terms-p3": "\"Operator\" - LLC \"Cargo sky\", the company responsible for collecting and processing data from the Forms on the site.",
+    "main-terms-p4": "\"Site\" - a website(s) owned by the company \"Cargo Sky\" located on the Internet at https://cargo- sky.netlify.app/ and on all subdomains related to the domain name yourcharter.ru.",
+    "1-general": "1. GENERAL",
+    "1-1-p": "1.1 These Rules are a public offer in accordance with Article 435 and Part 2 of Article 437 of the Civil Code of the Russian Federation.",
+    "1-2-p": "1.2 The User's use of the Site means acceptance of this Privacy Policy and the terms of processing of the User's personal data.",
+    "1-3-p": "1.3 The Operator has the right to make adjustments to these Rules, therefore, the Visitor must familiarize themselves with them with each new action on the Site.",
+    "1-4-p": "1.4 In case of disagreement with the terms of the Privacy Policy, the User must stop using the Site.",
+    "2-policy-subject": "2. SUBJECT OF THE PRIVACY POLICY",
+    "2-1-p": "2.1 Providing information by the User:",
+    "2-1-1-p": "2.1.1 For any actions on the Site, the User has the right to provide the following personal information: full name, email address, mobile or landline phone number, desired cities and dates of flight, additional information at the request of the User .",
+    "2-1-2-p": "2.1.2 Any other personal data not specified above (flight history, operating systems used, etc.) is subject to secure storage and non-distribution. It is not considered a violation that the Operator provides information to agents and third parties, acting on the basis of an agreement with the Operator, to fulfill obligations to the User.",
+    "2-2-p": "2.2 By providing his personal data, the User gives his consent to their processing by the Operator, including for the purpose of promoting goods and services by the Operator.",
+    "2-2-1-p": "2.2.1 If the User does not want his personal data to be processed, he may apply in writing to the Operator and demand that they be deleted.",
+    "2-3-p": "2.3 Rules for the use of information provided by the User.",
+    "2-3-1-p": "2.3.1 The operator uses the received information solely for the following purposes:",
+    "2-3-1-li1": "User registration on the Site;",
+    "2-3-1-li2": "fulfillment of its obligations to the User;",
+    "2-3-1-li3": "Site health analysis.",
+    "3-responsibility": "3. RESPONSIBILITIES OF THE PARTIES",
+    "3-1-p": "3.1 The Operator undertakes not to disclose the information received from the User.",
+    "3-2-p": "3.2 An operator that has not fulfilled its obligations is liable in accordance with the legislation of the Russian Federation, except as provided in clause 2.1.2. of this Privacy Policy.",
+    "3-3-p": "3.3 The Operator has the right to use \"Cookies\" technology, which does not contain confidential information and is not transferred to third parties.",
+    "3-4-p": "3.4 The operator is not responsible for the information:",
+    "3-4-1-p": "3.4.1 Became public domain through the fault of the User.",
+    "3-4-2-p": "3.4.2 Received from a third party before they are received by the Operator."
+  },
+  "traffic-net": {
+    "p-1": "LLC \"Cargo Sky\" provides professional services for the delivery of a wide variety of cargo to anywhere in the world. We are aimed at the development of friendly international relations, we are striving to expand the geography of the services provided. Thanks to the experience of our employees, we promptly deliver any cargo around the world and the Russian Federation.",
+    "p-2": "LLC \"Cargo Sky\" provides reliable services from the field of international logistics:",
+    "p-2-li-1": "We choose the best flights;",
+    "p-2-li-2": "We design air transport routes;",
+    "p-2-li-3": "We prepare the necessary documentation for submission;",
+    "p-2-li-4": "We provide customs clearance of goods;",
+    "p-2-li-5": "We offer cargo insurance;",
+    "p-2-li-6": "We accept cargo at the arrival airport and transport it by truck to the final destination.",
+    "p-3": "Air transportation of goods is the best solution for the transportation of goods, taking into account short transit times over any distance. Taking into account the geography of location, as well as the activities of the company, we provide such services in different regions, taking into account client needs. If necessary, we deliver air cargo by road on the \"last leg\" in the customs regime. This is an excellent opportunity for the recipient to clear the cargo at customs, choosing a convenient place."
   }
 }
