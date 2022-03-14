@@ -70,7 +70,7 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li>
-              <Link to='/policy' className='page-scroll' style={{maxWidth: '180px'}}>
+              <Link to='/policy' className='page-scroll' style={{maxWidth: '185px'}}>
                 {t('main.policy')}
               </Link>
             </li>
