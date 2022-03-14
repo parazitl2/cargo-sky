@@ -19,7 +19,7 @@
 #menu.navbar-default .navbar-nav > li {
     display: flex;
     height: 65px;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 #menu.navbar-default .navbar-nav > li > a {
     font-family: "Lato", sans-serif;
@@ -65,8 +65,8 @@
 }
 .company-logo {
     position: absolute;
-    height: 120%;
-    top: 0px;
+    height: 101%;
+    top: 0;
 }
 .navbar-toggle {
     border-radius: 0;
@@ -143,21 +143,20 @@ a:focus,
     outline-offset: none;
 }
 
-#menu .language-block {
-    display: flex;
-    flex-direction: column;
+#menu.navbar-default .navbar-nav > li.language-block {
+    flex-direction: row;
     align-items: flex-start !important;
-    justify-content: flex-end;
-}
-
-#menu .language-block > div {
     cursor: pointer;
+    display: none;
+}
+#menu.navbar-default .navbar-nav > li.language-block .flag {
+    padding: 20px 10px;
 }
 
 @media (max-width: 1200px) {
     #menu .company-logo {
-        width: 167px;
-        height: 81px;
+        /*width: 167px;*/
+        height: 80px;
     }
 }
 
@@ -170,5 +169,8 @@ a:focus,
 @media (max-width: 768px) {
     #menu .company-logo {
         display: block;
+    }
+    #menu.navbar-default .navbar-nav > li.language-block {
+        display: flex;
     }
 }

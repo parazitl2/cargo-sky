@@ -55,7 +55,7 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li>
-              <Link to='/traffic-net' className='page-scroll' style={{width: '100px'}}>
+              <Link to='/traffic-net' className='page-scroll' style={{width: '90px'}}>
                 {t('main.traffic-network')}
               </Link>
             </li>
@@ -70,13 +70,13 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li>
-              <Link to='/policy' className='page-scroll' style={{width: '200px'}}>
+              <Link to='/policy' className='page-scroll' style={{maxWidth: '180px'}}>
                 {t('main.policy')}
               </Link>
             </li>
             <li className='language-block'>
-              <div onClick={handleRU}><ReactCountryFlag countryCode="RU" title="Русский" />Русский</div>
-              <div onClick={handleEN}><ReactCountryFlag countryCode="US" title="English" />English</div>
+              <ReactCountryFlag countryCode="RU" title="Русский" onClick={handleRU} className='flag'/>
+              <ReactCountryFlag countryCode="US" title="English" onClick={handleEN} className='flag'/>
             </li>
           </ul>
         </div>
