@@ -3,6 +3,7 @@
 **
 
 ### <a href="https://cargo-sky.netlify.app">LIVE DEMO</a> 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3917dd37-c0e3-4b69-8ed9-998237250eda/deploy-status)](https://app.netlify.com/sites/cargo-sky/deploys)
 
 ## Description
 This is a ReactJS based page. The design is inspired by a tmplate from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
