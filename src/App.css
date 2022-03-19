@@ -1,24 +1,24 @@
 
 main#main {
-  padding-top: 75px;
-  min-height: calc(100vh - 160px);
+  padding-top: 96px;
+  min-height: calc(100vh - 256px);
 }
 
-@media screen and (max-width: 400px) {
-  #features {
-    padding: 20px;
-    width: 111%;
-  }
-  #about,
-  #services,
-  #testimonials,
-  #team,
-  #contact,
-  #footer {
-    width: 111%;
-  }
+/*@media screen and (max-width: 400px) {*/
+/*  #features {*/
+/*    padding: 20px;*/
+/*    width: 111%;*/
+/*  }*/
+/*  #about,*/
+/*  #services,*/
+/*  #testimonials,*/
+/*  #team,*/
+/*  #contact,*/
+/*  #footer {*/
+/*    width: 111%;*/
+/*  }*/
 
-  #portfolio {
-    width: 110%;
-  }
-}
+/*  #portfolio {*/
+/*    width: 110%;*/
+/*  }*/
+/*}*/

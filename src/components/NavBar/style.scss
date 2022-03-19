@@ -3,7 +3,8 @@
   padding: 15px;
   transition: all 0.8s;
 
-  &.navbar-default {
+  &.navbar {
+    margin-bottom: 0;
   }
 
   a.navbar-brand {
@@ -58,6 +59,23 @@
 
         &:hover:after {
           width: 100%;
+        }
+      }
+
+      & > div {
+        font-family: "Lato", sans-serif;
+        color: #333;
+        font-size: 14px;
+        margin: 9px 10px 0;
+
+        & > p {
+          margin-bottom: 0;
+
+          &:first-child {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+          }
         }
       }
     }
@@ -176,16 +194,18 @@ a:focus,
 }
 
 
-@media (max-width: 1200px) {
-  #menu .company-logo {
-    /*width: 167px;*/
-    height: 80px;
-  }
-}
+//@media (max-width: 1200px) {
+//  #menu .company-logo {
+//    /*width: 167px;*/
+//    height: 80px;
+//  }
+//}
 
 @media (max-width: 991px) {
   #menu .company-logo {
     display: none;
+    //    /*width: 167px;*/
+    height: 80px;
   }
 }
 
@@ -198,5 +218,11 @@ a:focus,
   }
   #menu.navbar-default .navbar-nav > li.language-block .flag {
     padding: 20px 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  #menu .company-logo {
+    margin-left: -30px;
   }
 }

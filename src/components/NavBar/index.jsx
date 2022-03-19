@@ -69,14 +69,15 @@ export const Navigation = (props) => {
                 {t('main.contacts')}
               </Link>
             </li>
-            <li>
-              <Link to='/policy' className='page-scroll' style={{maxWidth: '185px'}}>
-                {t('main.policy')}
-              </Link>
-            </li>
             <li className='language-block'>
               <ReactCountryFlag countryCode="RU" title="Русский" onClick={handleRU} className='flag'/>
               <ReactCountryFlag countryCode="US" title="English" onClick={handleEN} className='flag'/>
+            </li>
+            <li>
+              <div>
+                <p>+7 913 709 09 09</p>
+                <p>info@cargo-sky.com</p>
+              </div>
             </li>
           </ul>
         </div>
