@@ -23,6 +23,7 @@ export const Services = () => {
               <li>{t('services.li-5-3')}</li>
               <p>{t('services.li-6')}</p>
               <p>{t('services.li-7')}</p>
+              <p>{t('services.li-8')}</p>
             </div>
         </div>
 
