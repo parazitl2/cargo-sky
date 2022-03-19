@@ -1,10 +1,10 @@
 {
   "emailjs": {
-    "service_ID": "",
-    "template_ID": "",
-    "user_ID": ""
+    "service_ID": "default_service",
+    "template_ID": "template_pvmmxep",
+    "user_ID": "JogXmadOXOsYtN42y"
   },
   "callback-free": {
-    "data-key": ""
+    "data-key": "P0wzWdat"
   }
 }
