@@ -20,7 +20,7 @@ export const Navigation = (props) => {
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
         <Link to='/'>
-          <img className='company-logo' src={logo}/>
+          <img className='company-logo' src={logo} alt={t('main.logo-alt')} />
         </Link>
         <div className='navbar-header'>
           <button
