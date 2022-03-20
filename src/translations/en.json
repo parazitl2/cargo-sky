@@ -41,7 +41,8 @@
     "email": " info@cargo-sky.com",
     "name-placeholder": "Name",
     "message-placeholder": "Message",
-    "send-button": "Send message"
+    "send-button": "Send message",
+    "place-order-button": "Leave request"
   },
   "fleet": {
     "main-title": "Aircraft",
@@ -103,5 +104,30 @@
     "p-2-li-5": "We offer cargo insurance;",
     "p-2-li-6": "We accept cargo at the arrival airport and transport it by truck to the final destination.",
     "p-3": "Air transportation of goods is the best solution for the transportation of goods, taking into account short transit times over any distance. Taking into account the geography of location, as well as the activities of the company, we provide such services in different regions, taking into account client needs. If necessary, we deliver air cargo by road on the \"last leg\" in the customs regime. This is an excellent opportunity for the recipient to clear the cargo at customs, choosing a convenient place."
+  },
+  "order": {
+    "cargo_sender": "Sender",
+    "sender_address": "Sender's address",
+    "sender_contact_data": "Phone, fax, email",
+    "sender_name": "Contact Person (First Name Last Name)",
+    "pickup_address": "Pickup address",
+    "pickup_address_hint": "(to be filled in if the pickup address differs from the sender's address)",
+    "cargo_receiver": "Consignee",
+    "receiver_address": "Consignee's address",
+    "receiver_contact_data": "Phone, fax, email",
+    "receiver_name": "Contact Person (First Name Last Name)",
+    "receiver_pickup_address": "Pickup address",
+    "receiver_pickup_address_hint": "(to be filled in if the pickup address differs from the address of the consignee) for rail transportation, the exact name of the station.",
+    "cargo_track": "Air route",
+    "invoice_number": "Invoice, order number",
+    "cargo_name": "Cargo name",
+    "package_info": "Type, package size, number of places",
+    "package_weight": "Package weight (gross weight), packaged volume",
+    "circumstances": "Terms of delivery",
+    "cargo_cost": "Cargo cost (for insurance)",
+    "transfer_start_date": "Date of readiness for cargo pickup",
+    "following_documentation": "Legal basis for moving cargo",
+    "following_documentation_hint": "(sale agreement, lease agreement or other, specify)",
+    "additional_info": "Notes"
   }
 }

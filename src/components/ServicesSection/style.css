@@ -2,6 +2,7 @@
 /* About Section */
 #services {
     padding: 100px 0;
+    min-height: calc(100vh - 256px);
 }
 #services h3 {
     font-size: 22px;

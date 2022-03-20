@@ -29,7 +29,7 @@ export const Services = () => {
 
         <Link to='/contacts'>
           <button type='submit' className='btn btn-custom btn-lg'>
-            {t('contact-us.main-title')}
+            {t('contact-us.place-order-button')}
           </button>
         </Link>
       </div>

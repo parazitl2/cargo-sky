@@ -1,18 +1,13 @@
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/NavBar";
 import { Header } from "./components/HeaderSection";
-import { Features } from "./components/FeaturesSection";
 import { About } from "./components/AboutSection";
 import { Services } from "./components/ServicesSection";
 import { Gallery } from "./components/GallerySection";
-import { Testimonials } from "./components/TestomonialsSection";
-import { Team } from "./components/TeamSection";
 import { Contact } from "./components/ContactUsSection";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
-import {useTranslation} from 'react-i18next';
-import {SocialNetworks} from "./components/SocialNetworksSection";
 import {Footer} from "./components/FooterSection";
 import {Route, Routes} from "react-router-dom";
 import {Policy} from './components/PolicySection';
@@ -28,8 +23,6 @@ const App = () => {
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
-
-    // <button onClick={() => i18n.changeLanguage('ru')}>de</button>
 
   return (
     <div>
