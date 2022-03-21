@@ -1,7 +1,7 @@
 
 /* About Section */
 #about {
-    padding: 100px 0;
+    padding: 70px 15px;
     min-height: calc(100vh - 256px);
 }
 #about h3 {

@@ -2,7 +2,7 @@ import './style.scss';
 import logo from '../../assets/logo.png';
 import {useTranslation} from 'react-i18next';
 import {Link} from "react-router-dom";
-import {useCallback, useLayoutEffect} from 'react';
+import {useCallback} from 'react';
 import {ReactComponent as UKFlagSvg} from '../../assets/svg/gb.svg';
 import {ReactComponent as RUFlagSvg} from '../../assets/svg/ru.svg';
 
