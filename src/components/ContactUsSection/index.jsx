@@ -233,6 +233,8 @@ export const Contact = () => {
                   hint={t('order.following_documentation_hint')}
                 />
 
+                <br />
+
                 <div className='form-group'>
                   <textarea
                     name='additional_info'
