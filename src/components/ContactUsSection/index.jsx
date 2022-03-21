@@ -269,6 +269,14 @@ export const Contact = () => {
             <div className='contact-item'>
               <p>
                 <span>
+                  <i className='fa fa-map-marker'/> {t('contact-us.fact-address-title')}
+                </span>
+                {t('company.fact-address')}
+              </p>
+            </div>
+            <div className='contact-item'>
+              <p>
+                <span>
                   <i className='fa fa-envelope-o'/> {t('contact-us.email-title')}
                 </span>{' '}
                 {t('contact-us.email')}

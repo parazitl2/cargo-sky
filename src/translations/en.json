@@ -11,6 +11,7 @@
   "company": {
     "name": "Cargo Sky LLC",
     "address": "630112, Novosibirsk region, Novosibirsk city, md. Zakamensky, 20/3, 114",
+    "fact-address": "630015, Novosibirsk region, Novosibirsk city, st. Planetnaya, 30, building 1a, office 101",
     "ogrn": "OGRN 1215400048478",
     "deny-resp": "Disclaimer: Cargo Sky LLC is an air charter broker. LLC \"Cargo Sky\" is not an aircraft operator or a direct air carrier and does not carry out operational control of aircraft. The flights will be operated by a direct air carrier or a direct foreign air carrier, as the case may be, which will have operational control of the aircraft."
   },
@@ -35,13 +36,14 @@
     "main-text": "Please fill out the form below to send us an email and we will get back to you as soon as possible.",
     "info-title": "Contact info",
     "address-title": "Address",
+    "fact-address-title": "Actual address",
     "phone-title": "Phone",
     "phone-number": "+7 (913) 709-09-09 (noctidial)",
     "email-title": "E-mail",
     "email": " info@cargo-sky.com",
     "name-placeholder": "Name",
     "message-placeholder": "Message",
-    "send-button": "Send message",
+    "send-button": "Send request",
     "place-order-button": "Leave request"
   },
   "fleet": {
