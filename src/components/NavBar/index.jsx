@@ -2,9 +2,9 @@ import './style.scss';
 import logo from '../../assets/logo.png';
 import {useTranslation} from 'react-i18next';
 import {Link} from "react-router-dom";
-import {useCallback} from 'react';
-import { ReactComponent as UKFlagSvg } from '../../assets/svg/gb.svg';
-import { ReactComponent as RUFlagSvg } from '../../assets/svg/ru.svg';
+import {useCallback, useLayoutEffect} from 'react';
+import {ReactComponent as UKFlagSvg} from '../../assets/svg/gb.svg';
+import {ReactComponent as RUFlagSvg} from '../../assets/svg/ru.svg';
 
 export const Navigation = (props) => {
   const [t, i18n] = useTranslation('common');
@@ -17,11 +17,27 @@ export const Navigation = (props) => {
     i18n.changeLanguage('en');
   }, [i18n]);
 
+  const simulateToggle = useCallback(() => {
+    const element = document.querySelector('button.navbar-toggle');
+
+    // check if element is on the page
+    if (element.offsetParent !== null) {
+      element.dispatchEvent(
+        new MouseEvent('click', {
+          view: window,
+          bubbles: true,
+          cancelable: true,
+          buttons: 1
+        })
+      )
+    }
+  }, []);
+
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
         <Link to='/'>
-          <img className='company-logo' src={logo} alt={t('main.logo-alt')} />
+          <img className='company-logo' src={logo} alt={t('main.logo-alt')}/>
         </Link>
         <div className='navbar-header'>
           <button
@@ -46,27 +62,27 @@ export const Navigation = (props) => {
         >
           <ul className='nav navbar-nav navbar-right'>
             <li>
-              <Link to='/about' className='page-scroll'>
+              <Link to='/about' className='page-scroll' onClick={simulateToggle}>
                 {t('main.about')}
               </Link>
             </li>
             <li>
-              <Link to='/services' className='page-scroll'>
+              <Link to='/services' className='page-scroll' onClick={simulateToggle}>
                 {t('main.services')}
               </Link>
             </li>
             <li>
-              <Link to='/traffic-net' className='page-scroll' style={{width: '90px'}}>
+              <Link to='/traffic-net' className='page-scroll' style={{width: '90px'}} onClick={simulateToggle}>
                 {t('main.traffic-network')}
               </Link>
             </li>
             <li>
-              <Link to='/fleet' className='page-scroll'>
+              <Link to='/fleet' className='page-scroll' onClick={simulateToggle}>
                 {t('main.fleet')}
               </Link>
             </li>
             <li>
-              <Link to='/contacts' className='page-scroll'>
+              <Link to='/contacts' className='page-scroll' onClick={simulateToggle}>
                 {t('main.contacts')}
               </Link>
             </li>

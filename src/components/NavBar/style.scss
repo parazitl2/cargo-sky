@@ -194,7 +194,6 @@ a:focus,
   outline-offset: unset;
 }
 
-
 //@media (max-width: 1200px) {
 //  #menu .company-logo {
 //    /*width: 167px;*/
@@ -206,14 +205,24 @@ a:focus,
   #menu .company-logo {
     display: none;
     //    /*width: 167px;*/
-    height: 80px;
+    height: 66px;
   }
 }
 
 @media (max-width: 768px) {
+  div.navbar-header {
+    height: 66px;
+  }
+
+  button.navbar-toggle {
+    margin-top: 16px;
+  }
+
   #menu .company-logo {
+    margin-top: 15px;
     display: block;
   }
+
   #menu.navbar-default .navbar-nav > li.language-block {
     flex-direction: row;
   }
