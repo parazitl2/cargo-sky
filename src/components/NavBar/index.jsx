@@ -2,8 +2,9 @@ import './style.scss';
 import logo from '../../assets/logo.png';
 import {useTranslation} from 'react-i18next';
 import {Link} from "react-router-dom";
-import ReactCountryFlag from "react-country-flag"
 import {useCallback} from 'react';
+import { ReactComponent as UKFlagSvg } from '../../assets/svg/gb.svg';
+import { ReactComponent as RUFlagSvg } from '../../assets/svg/ru.svg';
 
 export const Navigation = (props) => {
   const [t, i18n] = useTranslation('common');
@@ -70,8 +71,8 @@ export const Navigation = (props) => {
               </Link>
             </li>
             <li className='language-block'>
-              <ReactCountryFlag countryCode="RU" title="Русский" onClick={handleRU} className='flag'/>
-              <ReactCountryFlag countryCode="US" title="English" onClick={handleEN} className='flag'/>
+              <RUFlagSvg title="Русский" width={30} onClick={handleRU} className='flag'/>
+              <UKFlagSvg title="English" width={30} onClick={handleEN} className='flag'/>
             </li>
             <li>
               <div>

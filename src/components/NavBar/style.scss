@@ -31,7 +31,8 @@
         cursor: pointer;
 
         .flag {
-          padding: 10px 10px;
+          //padding: 10px 10px;
+          margin: 9px 10px;
         }
       }
 
@@ -217,7 +218,8 @@ a:focus,
     flex-direction: row;
   }
   #menu.navbar-default .navbar-nav > li.language-block .flag {
-    padding: 20px 10px;
+    margin: 10px;
+    width: 20px;
   }
 }
 
